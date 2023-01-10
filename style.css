@@ -239,6 +239,99 @@ body {
    background-color: #fff;
 }
 
+.section_icons {
+   width: 868px;
+   height: 561px;
+   margin: 100px auto 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.icons_header {
+   padding: 0;
+   margin: 0;
+   width: 538px;
+   height: 144px;
+
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 120%;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.icons_header span{
+   color: #F83718;
+}
+
+.icons_p {
+   padding: 0;
+   margin: 0;
+
+   width: 580px;
+   height: 72px;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+}
+
+.icons_wrap {
+   width: 100%;
+   height: 285px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.icon_block_container {
+   width: 276px;
+   height: 285px;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.icon_block {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.icon_block img {
+   width: 100px;
+   margin-bottom: 18px;
+}
+
+.span_red {
+   display: block;
+   color: #F83718;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 120%;
+   text-align: center;
+}
+
+.span_black {
+   display: block;
+   color: #000;
+   font-weight: 300;
+   font-size: 26px;
+   line-height: 150%;
+   text-align: center;
+}
+
+
+
+
+
 
 
 
