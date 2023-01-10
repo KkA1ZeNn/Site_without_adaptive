@@ -213,6 +213,7 @@ body {
    height: 917px;
    width: 100%;
    position: absolute;
+   z-index: -1;
 }
 
 .decoraton_bg_2 {
@@ -221,6 +222,7 @@ body {
    height: 2849px;
    width: 100%;
    background-color: #f9f9f9;
+   z-index: -1;
 }
 
 .decoraton_bg_3 {
@@ -229,6 +231,7 @@ body {
    height: 635px;
    width: 100%;
    background-color: #01AFEB;
+   z-index: -1;
 }
 
 .decoraton_bg_4 {
@@ -237,12 +240,13 @@ body {
    height: 792px;
    width: 100%;
    background-color: #fff;
+   z-index: -1;
 }
 
 .section_icons {
    width: 868px;
    height: 561px;
-   margin: 100px auto 0 auto;
+   margin: 100px auto 20px auto;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -327,6 +331,56 @@ body {
    line-height: 150%;
    text-align: center;
 }
+
+.section_modules {
+   width: calc(1164px - (100vw - 100%));
+   height: 1493px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.module_block {
+   width: 100%;
+   height: 465px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+.block_section {
+   margin-left: 86px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#section_1 {
+   height: 366px;
+   width: 965px;
+}
+
+.block_img_1 {
+   width: 540px;
+   height: 100%;
+   background-image: url("images/98d266732572e5b6f1348c106ccbd778.png");
+   background-repeat: no-repeat; 
+   background-size: cover;
+}
+
+.block_content_1 {
+   width: 365px;
+   height: 257px;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+
 
 
 
