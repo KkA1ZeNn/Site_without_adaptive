@@ -1,1 +1,1 @@
-# first_sumple_site.github.io
+# first_simple_site.github.io
