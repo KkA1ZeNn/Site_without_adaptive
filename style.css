@@ -541,7 +541,7 @@ body {
    justify-content: center;
 }
 
-.casting_wrapper {
+.casting_photos_wrapper {
    width: 1037px;
    height: 481px;
    position: relative;
@@ -565,7 +565,22 @@ body {
    background-image: url("images/smallpeoples.png");
    position: absolute;
    z-index: 1;
-   left: 774px;
+   top: 31px;
+   left: 776px;
+}
+
+#block4_bg {
+   position: absolute;
+   z-index: -1;
+   top: 416px;
+   left: -29px;
+}
+
+#block5_bg {
+   position: absolute;
+   z-index: -1;
+   top: -28px;
+   right: -29px;
 }
 
 
