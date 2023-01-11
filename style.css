@@ -467,7 +467,7 @@ body {
    font-weight: 700;
    font-size: 14px;
    line-height: 120%;
-   letter-spacing:;
+   letter-spacing:1px;
    background-color: #F83718;
    text-transform: uppercase;
    align-items: center;
@@ -477,6 +477,56 @@ body {
 
 .block_button:hover {
    background-color: #ee816c;
+}
+
+.casting {
+   width: 691px;
+   height: 349px;
+   padding: 0;
+   margin: 125px auto 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.casting_header {
+   padding: 0;
+   margin: 0;
+
+   color: #000;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 120%;
+   text-transform: uppercase;
+}
+
+.casting_p {
+   padding: 0;
+   margin: 0;
+
+   color: #000;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+}
+
+.casting_wrapper {
+   width: 100%;
+   height: 87px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.cs_wrapper_item {
+      width: 156px;
+      height: 87px;
+}
+
+.item_special {
+   width: 179px;
 }
 
 
