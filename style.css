@@ -483,7 +483,7 @@ body {
    width: 691px;
    height: 349px;
    padding: 0;
-   margin: 125px auto 0 auto;
+   margin: 125px auto 27px auto;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -527,6 +527,45 @@ body {
 
 .item_special {
    width: 179px;
+}
+
+.casting_photos {
+   margin: 0 auto;
+   padding: 0;
+   width: 1164px;
+   height: 556px;
+   background-color: #fff;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.casting_wrapper {
+   width: 1037px;
+   height: 481px;
+   position: relative;
+}
+
+.casting_photo {
+   background-repeat: no-repeat; 
+   background-size: cover;
+   box-shadow: 0 0 25px 2px rgba(75, 77, 83, 0.25);
+} 
+
+.cs_ph1 {
+   width: 875px;
+   height: 471px;
+   background-image: url("images/peoples.png");
+}
+
+.cs_ph2 {
+   width: 263px;
+   height: 414px;
+   background-image: url("images/smallpeoples.png");
+   position: absolute;
+   z-index: 1;
+   left: 774px;
 }
 
 
