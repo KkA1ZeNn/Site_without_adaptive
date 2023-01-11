@@ -227,8 +227,8 @@ body {
 
 .decoraton_bg_3 {
    position: absolute;
-   top: 4478px;
-   height: 635px;
+   top: 4476px;
+   height: 637px;
    width: 100%;
    background-color: #01AFEB;
    z-index: -2;
@@ -531,6 +531,7 @@ body {
 
 .casting_photos {
    margin: 0 auto;
+   margin-bottom: 133px;
    padding: 0;
    width: 1164px;
    height: 556px;
@@ -583,10 +584,65 @@ body {
    right: -29px;
 }
 
+.solo_header {
+   padding: 0;
+   margin: 0 auto;
+   margin-bottom: 42px;
+   width: 628px;
+   height: 144px;
 
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 120%;
+   text-align: center;
+   text-transform: uppercase;
+}
 
+.information {
+   margin: 0 auto;
+   width: 1164px;
+   height: 466px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
 
+.information_block {
+   margin-left: 83px;
+   width: 970px;
+   height: 371px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 
+.bc4 {
+   width: 354px;
+   height: 286px;
+}
+
+.img4 {
+   width: 571px;
+   height: 371px;
+   background-image: url("images/documents.png");
+   box-shadow: 0 0 25px 2px rgba(75, 77, 83, 0.25);
+}
+
+#block6_bg {
+   position: absolute;
+   z-index: -1;
+   top: -28px;
+   right: -29px;
+}
+
+#block7_bg {
+   position: absolute;
+   z-index: -1;
+   top: 325px;
+   left: -29px;
+}
 
 
 
