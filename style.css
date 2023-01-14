@@ -646,7 +646,7 @@ body {
 
 .svg-images_block {
    padding: 0;
-   margin: 0px auto 0px auto;
+   margin: 0px auto 200px auto;
    width: 1164px;
    height: 312px;
    display: flex;
@@ -657,10 +657,10 @@ body {
 .svg-image {
    width: 276px;
    height: 312px;
-   padding-bottom: 42px;
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: flex-start;
 }
 
 .svg-image_wrapper {
@@ -669,7 +669,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-between;
+   margin-top: 42px;
 }
 
 .img_box {
@@ -678,6 +678,30 @@ body {
    background-image: url("images/Group\ 2499.svg");
    background-repeat: no-repeat; 
    background-size: cover;
+   margin-bottom: 22px;
+}
+
+.svg_header {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   color: #fff;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 120%;
+   text-transform: uppercase;
+   margin-bottom: 6px;
+}
+
+.svg_p {
+   padding: 0;
+   margin: 0;
+   width: 202px;
+   text-align: center;
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
 }
 
 
