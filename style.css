@@ -8,6 +8,7 @@ body {
    font-family: "Ubuntu", "Arial", sans-serif;
    margin: 0;
    padding: 0;
+   background-color: #fff;
 }
 
 .header {
@@ -209,12 +210,7 @@ body {
    z-index: 1;
  }
 
-.decoration_bg_1 {
-   height: 917px;
-   width: 100%;
-   position: absolute;
-   z-index: -2;
-}
+
 
 .decoration_bg_2 {
    position: absolute;
@@ -837,6 +833,116 @@ body {
    font-size: 16px;
    line-height: 120%;
 }
+
+.footer {
+   width: 1164px;
+   height: 413px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+
+.contacts {
+   width: 100%;
+   height: 233px;
+   display: flex;
+}
+
+.afferta {
+   width: 565px;
+   height: 60px;
+   text-align: center;
+   color: #959595;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 150%;
+   margin-bottom: 60px;
+}
+
+.contacts_1 {
+   width: 582px;
+   height: 233px;
+   background-color: #F83718;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.contacts_2 {
+   width: 582px;
+   height: 233px;
+   background-color: #f9f9f9;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.contacts_content {
+   width: auto;
+   height: 140px;
+   margin-left: 58px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.questions {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 120%;
+   padding: 0;
+   margin: 0;
+   margin-bottom: 30px;
+}
+
+.email_span_1 {
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+   margin-bottom: 20px;
+}
+
+.email_span_2 {
+   color: #fff;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 120%;
+}
+
+.questions_2 {
+   color: #000;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 120%;
+   padding: 0;
+   margin: 0;
+   margin-bottom: 30px;
+}
+
+.email_span_3 {
+   color: #000;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 150%;
+   margin-bottom: 20px;
+}
+
+.email_span_4 {
+   color: #000;
+   font-weight: 400;
+   font-size: 20px;
+   list-style: 150%;
+}
+
+
+
 
 
 
