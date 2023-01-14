@@ -599,7 +599,7 @@ body {
 }
 
 .information {
-   margin: 0 auto;
+   margin: 0 auto 40px auto;
    width: 1164px;
    height: 466px;
    background-color: #fff;
@@ -642,6 +642,42 @@ body {
    z-index: -1;
    top: 326px;
    left: -29px;
+}
+
+.svg-images_block {
+   padding: 0;
+   margin: 0px auto 0px auto;
+   width: 1164px;
+   height: 312px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.svg-image {
+   width: 276px;
+   height: 312px;
+   padding-bottom: 42px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.svg-image_wrapper {
+   width: 202px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.img_box {
+   width: 100px;
+   height: 100px;
+   background-image: url("images/Group\ 2499.svg");
+   background-repeat: no-repeat; 
+   background-size: cover;
 }
 
 
