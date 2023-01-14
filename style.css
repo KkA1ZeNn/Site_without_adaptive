@@ -209,14 +209,14 @@ body {
    z-index: 1;
  }
 
-.decoraton_bg_1 {
+.decoration_bg_1 {
    height: 917px;
    width: 100%;
    position: absolute;
    z-index: -2;
 }
 
-.decoraton_bg_2 {
+.decoration_bg_2 {
    position: absolute;
    top: 1627px;
    height: 2849px;
@@ -225,7 +225,7 @@ body {
    z-index: -2;
 }
 
-.decoraton_bg_3 {
+.decoration_bg_3 {
    position: absolute;
    top: 4476px;
    height: 637px;
@@ -234,7 +234,7 @@ body {
    z-index: -2;
 }
 
-.decoraton_bg_4 {
+.decoration_bg_4 {
    position: absolute;
    top: 5113px;
    height: 792px;
