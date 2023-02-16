@@ -945,18 +945,16 @@ body {
    list-style: 150%;
 }
 
-
 /*----------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1164px)
 {
-   body {
-      max-width: 100vw;
-      overflow-x: hidden;
-   }
-
    .header {
       height: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 20;
    }
    
    .header_container {
@@ -967,7 +965,8 @@ body {
    .logo_container {
       height: 36px;
       width: 190px;
-      position: fixed;
+      position: absolute;
+      z-index: 21;
    }
    
    .logo {
@@ -980,7 +979,7 @@ body {
       width: 35px; 
       height: 35px;
       display: block;
-      margin-left: auto;
+      margin-right: auto;
    }
 
    .menu-btn span, .menu-btn:after, .menu-btn:before{
@@ -1034,22 +1033,27 @@ body {
       width: 100%;
       height: auto;
       box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
-      right: -100%;
+      left: -100%;
       transition: all 0.4s ease;
+      overflow: auto;
+   }
+
+   .fixed-page {
+      overflow-x: hidden !important; /*запрещаем прокручивание страницы при открытом меню*/
    }
 
    .header_nav.open-menu {
-      right: 0;
+      left: 0;
    }
    
    .nav_li {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
       align-items: center;
       height: 30px;
       width: 25%;
-      margin-left: auto;
-      padding-right: 10px;
+      margin-right: auto;
+      padding-left: 10px;
       text-decoration: none;
       color: #000;
       
@@ -1070,11 +1074,10 @@ body {
    }
    
    .header_switch_button {
-      height: 52px;
-      width: 104px;
+      height: 26px;
+      width: 52px;
       display: inline-block;
       position: relative;
-      display: none;
    }
    
    #lang_switcher {
@@ -1121,11 +1124,11 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 44px;
-      width: 47px;
+      height: 24px;
+      width: 24px;
       border-radius: 12px;
-      left: 4px;
-      bottom: 4px;
+      left: 2px;
+      bottom: 1px;
       background-color: #fff;
       -webkit-transition: .4s;
       transition: .4s;
@@ -1133,9 +1136,9 @@ body {
    
     input:checked + .slider:before {
       content: "En";
-      -webkit-transform: translateX(50px);
-      -ms-transform: translateX(50px);
-      transform: translateX(50px);
+      -webkit-transform: translateX(23px);
+      -ms-transform: translateX(23px);
+      transform: translateX(23px);
     }
    
     .main {
@@ -1150,17 +1153,18 @@ body {
     }
    
     .section_red {
-      width: calc(1164px - (100vw - 100%));
-      height: 438px;
+      width: 100%;
+      height: 100vh;
       margin: auto;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: space-between;
     }
    
     .red_block1 {
-      height: 390px;
-      width: 544px;
+      height: 50%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -1168,26 +1172,31 @@ body {
     }
    
     .red_block2 {
-      width: 575px;
-      height: 444px;
+      width: 100%;
+      height: 45%;
       position: relative;
+    }
+
+    .red_block2 img {
+      max-width: 100%;
     }
    
     .red_block_header {
-      width: 544px;
-      height: 180px;
+      width: 100%;
+      height: auto;
       color:#fff;
-      font-size: 50px;
+      font-size: 30px;
       font-weight: 700;
       line-height: 120%;
       padding: 0;
       margin: 0;
       text-transform: uppercase;
+      text-align: center;
     }
    
     .red_block_p {
-      width: 468px;
-      height: 192px;
+      width: 100%;
+      height: auto;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -1199,8 +1208,13 @@ body {
       margin: 0;
       color: #fff;
       line-height: 150%;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
+      text-align: center;
+    }
+
+    .red_p:first-child {
+      margin-bottom: 10px;
     }
    
     #dots {
@@ -1948,14 +1962,6 @@ body {
       font-weight: 400;
       font-size: 20px;
       list-style: 150%;
-   }
-
-   .main {
-      display: none;
-   }
-
-   .footer {
-      display: none;
    }
 }
 
